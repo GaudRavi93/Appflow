@@ -1,0 +1,17 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "A simple Hello World project",
+  "main": "www/script.js",
+  "scripts": {
+    "start": "live-server www",
+    "build:android": "npx cap sync android && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.1",
+    "@capacitor/cli": "^7.0.1",
+    "@capacitor/core": "^7.0.1"
+  },
+  "author": "Dhaval Bhanderi",
+  "license": "MIT"
+}
