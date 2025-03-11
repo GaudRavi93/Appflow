@@ -1,5 +1,13 @@
 {
   "appId": "dev.dhaval.app",
   "appName": "hello-world",
-  "webDir": "www"
+  "webDir": "www",
+  "plugins": {
+    "LiveUpdates": {
+      "appId": "6ee2bd50",
+      "channel": "Production",
+      "autoUpdateMethod": "background",
+      "maxVersions": 2
+    }
+  }
 }
